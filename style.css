@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #262d31;
+}
+div {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    background: linear-gradient(
+        45deg, 
+    #2ab841 30%, 
+    #43c153 60%,
+    #54cc61 80%) ;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.white::after {
+    content: "";
+    top: 205px;
+    left: 20px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent #2ab841 transparent transparent;
+    position: absolute;
+    transform: rotate(-50deg) rotateX(-45deg);
+}
+.fa-whatsapp {
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0%;
+    top: -7%;
+    width: 200px;
+    height: 200px;
+    font-size: 18em;
+}
